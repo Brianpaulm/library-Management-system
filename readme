@@ -1,0 +1,40 @@
+Here is the sql querys for the database
+Create Database manually on myPhp Admin Page Then Navigate to SQL to Create The Tables
+
+CREATE TABLE books (
+    Book_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Book_Name VARCHAR(255) NOT NULL,
+    Publisher VARCHAR(255),
+    ISBN VARCHAR(255),
+    Edition INT,
+    Number_of_pages INT,
+    Sales INT,
+    City VARCHAR(255),
+    Price DECIMAL(10, 2)
+);
+
+to insert entries 
+
+INSERT INTO books (Book_Name, Publisher, ISBN, Edition, Number_of_pages, Sales, City, Price) VALUES 
+('K Pop', 'Kasee', '1111', 1, 200, 150, 'New York', 15.99), 
+('Killing Man', 'Kinuthia M', '2222', 2, 300, 200, 'Los Angeles', 25.99), 
+('Kick Ass', 'Kangethe D', '3333', 1, 250, 50, 'Chicago', 12.99), 
+('Melting souls', 'Maurice M', '4444', 3, 150, 300, 'Houston', 9.99), 
+('Be U', 'Brayo H', '5555', 2, 500, 100, 'Phoenix', 19.99),
+('Fantastic Voyage', 'Felix T', '6666', 1, 400, 80, 'New York', 18.99),
+('Lost in Paradise', 'Lilian G', '7777', 2, 350, 150, 'Los Angeles', 21.99),
+('City of Dreams', 'Charles W', '8888', 1, 280, 70, 'Chicago', 14.99),
+('Eternal Flame', 'Emily L', '9999', 3, 200, 250, 'Houston', 10.99),
+('Beyond Limits', 'Benjamin F', '1010', 2, 450, 90, 'Phoenix', 22.99),
+('Moonlight Sonata', 'Michael B', '1111', 1, 320, 180, 'New York', 17.99),
+('Endless Horizon', 'Ella S', '1212', 2, 380, 120, 'Los Angeles', 23.99),
+('Windy City Tales', 'William R', '1313', 1, 290, 60, 'Chicago', 13.99),
+('Rising Sun', 'Rachel M', '1414', 3, 180, 270, 'Houston', 11.99),
+('Desert Mirage', 'David K', '1515', 2, 550, 110, 'Phoenix', 24.99),
+('Midnight Symphony', 'Megan C', '1616', 1, 360, 200, 'New York', 19.99),
+('Echoes of Eden', 'Edward J', '1717', 2, 320, 130, 'Los Angeles', 24.99),
+('Windy City Blues', 'Wendy L', '1818', 1, 270, 80, 'Chicago', 15.99),
+('Serenity Falls', 'Samuel K', '1919', 3, 190, 290, 'Houston', 12.99),
+('Phoenix Rising', 'Patricia P', '2020', 2, 600, 120, 'Phoenix', 25.99);
+ 
+ save the Source code files on the htdocs Folder in Xamp main Folder
